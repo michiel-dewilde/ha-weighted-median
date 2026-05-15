@@ -1,0 +1,15 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Weighted Median Filter",
+        "description": "Create a sensor that tracks the time-weighted median of a numerical source entity over a sliding window.",
+        "data": {
+          "name": "Name",
+          "source_entity": "Source entity",
+          "window_seconds": "Window duration (seconds)"
+        }
+      }
+    }
+  }
+}
